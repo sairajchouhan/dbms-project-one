@@ -198,3 +198,19 @@ ul {
 .page-break {
   margin: 2cm;
 }
+
+.social-links {
+  width: 100%;
+}
+
+.social-links > ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-links > ul li a {
+  text-decoration: none;
+  font-size: 1.75rem;
+}
